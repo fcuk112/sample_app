@@ -21,7 +21,7 @@ gem 'jquery-rails'
 
 group :development, :test do
   gem 'rspec-rails', '2.13.0'
-  gem 'capybara', '2.0.2'
+  gem 'capybara', '1.1.2'
   gem 'sqlite3', '1.3.7'
 end
 
