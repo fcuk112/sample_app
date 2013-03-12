@@ -32,6 +32,10 @@ group :development, :test do
   gem 'spork', '0.9.0'
 end
 
+group :test do
+  gem 'factory_girl_rails', '1.4.0'
+end
+
 gem 'annotate', '2.5.0', group: :development
 
 group :production do
